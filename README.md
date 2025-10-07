@@ -13,6 +13,9 @@ https://github.com/MrNeRF/awesome-3D-gaussian-splatting
 # USDZ
 https://www.youtube.com/watch?v=zLIOZ7g4kfA
 
+# windows pycharm colmap supersplat
+https://www.youtube.com/watch?v=nCQVBsgVjG0
+
 # Combined Commands Example
 
 <p align="center">
