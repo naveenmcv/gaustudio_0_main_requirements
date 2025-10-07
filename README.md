@@ -10,6 +10,9 @@ torch1.12.1+cu113 and torch2.0.1+cu118
 # Ref links
 https://github.com/MrNeRF/awesome-3D-gaussian-splatting
 
+# USDZ
+https://www.youtube.com/watch?v=zLIOZ7g4kfA
+
 # Combined Commands Example
 
 <p align="center">
