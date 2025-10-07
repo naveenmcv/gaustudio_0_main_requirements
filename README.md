@@ -26,7 +26,6 @@ gs-extract-mesh -m ./data/1750250955326095360_data/result -o ./output/1750250955
 
 **Python:**
 ```markdown
-```python
 # This is Python code
 def greet(name):
     print(f"Hello, {name}!")
