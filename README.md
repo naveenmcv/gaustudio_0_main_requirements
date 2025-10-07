@@ -8,30 +8,41 @@ torch1.12.1+cu113 and torch2.0.1+cu118
 
 
 
+Python Script
+# Simple Python function
+def greet(name):
+    print(f"Hello, {name}!")
 
-# Folder requirement
-- output_dir
-    - cameras.json (necessary)
-    - point_cloud 
-        - iteration_xxxx
-            - point_cloud.ply (necessary)
-         
+greet("Jacky")
 
-# Project Demo
+# Another example: sum numbers
+def add(a, b):
+    return a + b
 
-This is a demo showing **Bash and Python code blocks** in one Markdown file.
+print(add(5, 7))
 
----
+Mixed Instructions
 
-## Bash Commands
+You can write text instructions between code blocks, for example:
 
-```bash
-# Navigate to project folder
-cd /workspace/my_project
+Open terminal and navigate to the project folder (see Bash above).
 
-# List files
-ls -la
+Run Python script:
 
-# Run a script
-bash setup.sh
+python main.py
 
+
+Observe output in the terminal.
+
+Notes
+
+Use triple backticks (```) to start/end a code block.
+
+Specify the language after the opening backticks for syntax highlighting (bash, python).
+
+Inside code blocks, # is treated as a comment, not a heading.
+
+
+You can **copy this directly** to GitHub; it will render **all code blocks with proper syntax highlighting**.  
+
+I can also make an **even cleaner “all-in-one README template”** for projects with multiple scripts, 
