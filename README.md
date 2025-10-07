@@ -11,6 +11,7 @@ torch1.12.1+cu113 and torch2.0.1+cu118
 https://github.com/MrNeRF/awesome-3D-gaussian-splatting
 https://x.com/zhenjun_zhao
 https://x.com/zhenjun_zhao/status/1975128989686796728
+https://x.com/ychngji6
 
 
 # USDZ
