@@ -1,0 +1,2 @@
+# gaustudio_0_main_requirements
+Main requirements
