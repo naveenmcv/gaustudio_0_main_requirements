@@ -25,10 +25,13 @@ torch1.12.1+cu113 and torch2.0.1+cu118
 gs-extract-mesh -m ./data/1750250955326095360_data/result -o ./output/1750250955326095360_data
 
 
+
 # sample
+
 
 **Python:**
 ```markdown
+```python
 # This is Python code
 def greet(name):
     print(f"Hello, {name}!")
