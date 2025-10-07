@@ -21,7 +21,7 @@ torch1.12.1+cu113 and torch2.0.1+cu118
 # Running the Mesh Extraction
 ## To extract a mesh from the input data, run the following command:
 **Python:**
-```markdown
+
 gs-extract-mesh -m ./data/1750250955326095360_data/result -o ./output/1750250955326095360_data
 
 
