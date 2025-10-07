@@ -9,12 +9,22 @@ torch1.12.1+cu113 and torch2.0.1+cu118
 
 # Ref links
 https://github.com/MrNeRF/awesome-3D-gaussian-splatting
+https://x.com/zhenjun_zhao
+https://x.com/zhenjun_zhao/status/1975128989686796728
+
 
 # USDZ
 https://www.youtube.com/watch?v=zLIOZ7g4kfA
 
 # windows pycharm colmap supersplat
 https://www.youtube.com/watch?v=nCQVBsgVjG0
+
+
+# issues 
+https://github.com/GAP-LAB-CUHK-SZ/gaustudio/issues/89
+https://github.com/GAP-LAB-CUHK-SZ/gaustudio/issues/86
+https://github.com/GAP-LAB-CUHK-SZ/gaustudio/issues/75
+
 
 # Combined Commands Example
 
