@@ -8,32 +8,12 @@ torch1.12.1+cu113 and torch2.0.1+cu118
 
 # Combined Commands Example
 
-```text
-# --- Bash ---
-cd /workspace/my_project
-ls -la
-bash setup.sh
+### Running the Mesh Extraction
 
-# --- Python ---
-def greet(name):
-    print(f"Hello, Jacky!")
+To extract a mesh from the input data, run the following command:
+```
+gs-extract-mesh -m ./data/1750250955326095360_data/result -o ./output/1750250955326095360_data
+```
+Replace `./data/1750250955326095360_data/result` with the path to your input output_dir.
+Replace `./output/1750250955326095360_data` with the desired path for the output mesh.
 
-greet("Jacky")
-
-def add(a, b):
-    return a + b
-
-print(add(5, 7))
-
-# --- PostgreSQL ---
--- Connect to database
-psql -U postgres -d mydb
--- Create table
-CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(50)
-);
--- Insert data
-INSERT INTO users (name) VALUES ('Jacky');
--- Query data
-SELECT * FROM users;
