@@ -24,16 +24,20 @@ torch1.12.1+cu113 and torch2.0.1+cu118
 
 gs-extract-mesh -m ./data/1750250955326095360_data/result -o ./output/1750250955326095360_data
 
+# My Project
+
+This is a demo project showing how to include **Bash** and **Python** code in GitHub Markdown.
+
+---
+
+## Bash Example
+
+```bash
+# List all files
+ls -la
+
+# Change directory
+cd /workspace/my_project
 
 
-# sample
 
-
-**Python:**
-```markdown
-```python
-# This is Python code
-def greet(name):
-    print(f"Hello, {name}!")
-
-greet("Jacky")
