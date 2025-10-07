@@ -13,6 +13,8 @@ https://x.com/zhenjun_zhao
 https://x.com/zhenjun_zhao/status/1975128989686796728
 https://x.com/ychngji6
 
+# details
+https://radiancefields.com/gaustudio
 
 # USDZ
 https://www.youtube.com/watch?v=zLIOZ7g4kfA
