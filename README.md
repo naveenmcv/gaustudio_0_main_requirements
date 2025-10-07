@@ -6,43 +6,34 @@
 Python >= 3.8
 torch1.12.1+cu113 and torch2.0.1+cu118
 
+# Combined Commands Example
 
+```text
+# --- Bash ---
+cd /workspace/my_project
+ls -la
+bash setup.sh
 
-Python Script
-# Simple Python function
+# --- Python ---
 def greet(name):
-    print(f"Hello, {name}!")
+    print(f"Hello, Jacky!")
 
 greet("Jacky")
 
-# Another example: sum numbers
 def add(a, b):
     return a + b
 
 print(add(5, 7))
 
-Mixed Instructions
-
-You can write text instructions between code blocks, for example:
-
-Open terminal and navigate to the project folder (see Bash above).
-
-Run Python script:
-
-python main.py
-
-
-Observe output in the terminal.
-
-Notes
-
-Use triple backticks (```) to start/end a code block.
-
-Specify the language after the opening backticks for syntax highlighting (bash, python).
-
-Inside code blocks, # is treated as a comment, not a heading.
-
-
-You can **copy this directly** to GitHub; it will render **all code blocks with proper syntax highlighting**.  
-
-I can also make an **even cleaner “all-in-one README template”** for projects with multiple scripts, 
+# --- PostgreSQL ---
+-- Connect to database
+psql -U postgres -d mydb
+-- Create table
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50)
+);
+-- Insert data
+INSERT INTO users (name) VALUES ('Jacky');
+-- Query data
+SELECT * FROM users;
